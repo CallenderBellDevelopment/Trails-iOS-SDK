@@ -16,4 +16,4 @@ FOUNDATION_EXPORT const unsigned char Trails_iOS_SDKVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <Trails_iOS_SDK/PublicHeader.h>
 
-
+#import <Trails_iOS_SDK/Test.h>

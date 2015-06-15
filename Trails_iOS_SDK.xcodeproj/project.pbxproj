@@ -22,6 +22,8 @@
 
 /* Begin PBXBuildFile section */
 		20A7668599D5AFF01D063BB2 /* Pods_Trails_iOS_SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87F9A2761337EB9BD2F0A6D3 /* Pods_Trails_iOS_SDK.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		E539E8591B2F0804001C5E89 /* Test.h in Headers */ = {isa = PBXBuildFile; fileRef = E539E8571B2F0804001C5E89 /* Test.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E539E85A1B2F0804001C5E89 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = E539E8581B2F0804001C5E89 /* Test.m */; };
 		E55AB81B1B2EFD2300917BB1 /* Trails_iOS_SDK.h in Headers */ = {isa = PBXBuildFile; fileRef = E55AB81A1B2EFD2300917BB1 /* Trails_iOS_SDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E55AB8211B2EFD2300917BB1 /* Trails_iOS_SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E55AB8151B2EFD2300917BB1 /* Trails_iOS_SDK.framework */; };
 		E55AB8281B2EFD2300917BB1 /* Trails_iOS_SDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E55AB8271B2EFD2300917BB1 /* Trails_iOS_SDKTests.m */; };
@@ -45,6 +47,8 @@
 		6E133C5C60A290A6BDF724E3 /* Pods-Trails_iOS_SDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trails_iOS_SDK.release.xcconfig"; path = "Pods/Target Support Files/Pods-Trails_iOS_SDK/Pods-Trails_iOS_SDK.release.xcconfig"; sourceTree = "<group>"; };
 		78C5E43CB8E9A0F1B257A703 /* Pods-Trails_iOS_SDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trails_iOS_SDK.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Trails_iOS_SDK/Pods-Trails_iOS_SDK.debug.xcconfig"; sourceTree = "<group>"; };
 		87F9A2761337EB9BD2F0A6D3 /* Pods_Trails_iOS_SDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Trails_iOS_SDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E539E8571B2F0804001C5E89 /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		E539E8581B2F0804001C5E89 /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 		E55AB8151B2EFD2300917BB1 /* Trails_iOS_SDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Trails_iOS_SDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E55AB8191B2EFD2300917BB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E55AB81A1B2EFD2300917BB1 /* Trails_iOS_SDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Trails_iOS_SDK.h; sourceTree = "<group>"; };
@@ -125,6 +129,8 @@
 			children = (
 				E55AB81A1B2EFD2300917BB1 /* Trails_iOS_SDK.h */,
 				E55AB8181B2EFD2300917BB1 /* Supporting Files */,
+				E539E8571B2F0804001C5E89 /* Test.h */,
+				E539E8581B2F0804001C5E89 /* Test.m */,
 			);
 			path = Trails_iOS_SDK;
 			sourceTree = "<group>";
@@ -163,6 +169,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E55AB81B1B2EFD2300917BB1 /* Trails_iOS_SDK.h in Headers */,
+				E539E8591B2F0804001C5E89 /* Test.h in Headers */,
 				E55AB8321B2F024500917BB1 /* Trails_iOS_SDK-Prefix.pch in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -331,6 +338,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E539E85A1B2F0804001C5E89 /* Test.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -560,6 +568,7 @@
 				E55AB83C1B2F040300917BB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
