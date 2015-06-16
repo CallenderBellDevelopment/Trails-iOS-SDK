@@ -22,8 +22,6 @@
 
 /* Begin PBXBuildFile section */
 		20A7668599D5AFF01D063BB2 /* Pods_Trails_iOS_SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87F9A2761337EB9BD2F0A6D3 /* Pods_Trails_iOS_SDK.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		E539E8591B2F0804001C5E89 /* Test.h in Headers */ = {isa = PBXBuildFile; fileRef = E539E8571B2F0804001C5E89 /* Test.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E539E85A1B2F0804001C5E89 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = E539E8581B2F0804001C5E89 /* Test.m */; };
 		E55AB81B1B2EFD2300917BB1 /* Trails_iOS_SDK.h in Headers */ = {isa = PBXBuildFile; fileRef = E55AB81A1B2EFD2300917BB1 /* Trails_iOS_SDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E55AB8211B2EFD2300917BB1 /* Trails_iOS_SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E55AB8151B2EFD2300917BB1 /* Trails_iOS_SDK.framework */; };
 		E55AB8281B2EFD2300917BB1 /* Trails_iOS_SDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E55AB8271B2EFD2300917BB1 /* Trails_iOS_SDKTests.m */; };
@@ -47,8 +45,6 @@
 		6E133C5C60A290A6BDF724E3 /* Pods-Trails_iOS_SDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trails_iOS_SDK.release.xcconfig"; path = "Pods/Target Support Files/Pods-Trails_iOS_SDK/Pods-Trails_iOS_SDK.release.xcconfig"; sourceTree = "<group>"; };
 		78C5E43CB8E9A0F1B257A703 /* Pods-Trails_iOS_SDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trails_iOS_SDK.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Trails_iOS_SDK/Pods-Trails_iOS_SDK.debug.xcconfig"; sourceTree = "<group>"; };
 		87F9A2761337EB9BD2F0A6D3 /* Pods_Trails_iOS_SDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Trails_iOS_SDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E539E8571B2F0804001C5E89 /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
-		E539E8581B2F0804001C5E89 /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 		E55AB8151B2EFD2300917BB1 /* Trails_iOS_SDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Trails_iOS_SDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E55AB8191B2EFD2300917BB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E55AB81A1B2EFD2300917BB1 /* Trails_iOS_SDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Trails_iOS_SDK.h; sourceTree = "<group>"; };
@@ -104,6 +100,77 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		E539E8641B302B1C001C5E89 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E539E8651B302B1C001C5E89 /* Constants */,
+				E539E8661B302B1C001C5E89 /* Interfaces */,
+				E539E8671B302B1C001C5E89 /* Managers */,
+				E539E8681B302B1C001C5E89 /* Model */,
+				E539E8691B302B1C001C5E89 /* Network */,
+				E539E86B1B302B1C001C5E89 /* Settings */,
+				E539E86C1B302B1C001C5E89 /* Tasks */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E539E8651B302B1C001C5E89 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		E539E8661B302B1C001C5E89 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		E539E8671B302B1C001C5E89 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		E539E8681B302B1C001C5E89 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E539E8691B302B1C001C5E89 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				E539E86A1B302B1C001C5E89 /* Session */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		E539E86A1B302B1C001C5E89 /* Session */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Session;
+			sourceTree = "<group>";
+		};
+		E539E86B1B302B1C001C5E89 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		E539E86C1B302B1C001C5E89 /* Tasks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tasks;
+			sourceTree = "<group>";
+		};
 		E55AB80B1B2EFD2300917BB1 = {
 			isa = PBXGroup;
 			children = (
@@ -128,9 +195,8 @@
 			isa = PBXGroup;
 			children = (
 				E55AB81A1B2EFD2300917BB1 /* Trails_iOS_SDK.h */,
+				E539E8641B302B1C001C5E89 /* Classes */,
 				E55AB8181B2EFD2300917BB1 /* Supporting Files */,
-				E539E8571B2F0804001C5E89 /* Test.h */,
-				E539E8581B2F0804001C5E89 /* Test.m */,
 			);
 			path = Trails_iOS_SDK;
 			sourceTree = "<group>";
@@ -169,7 +235,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E55AB81B1B2EFD2300917BB1 /* Trails_iOS_SDK.h in Headers */,
-				E539E8591B2F0804001C5E89 /* Test.h in Headers */,
 				E55AB8321B2F024500917BB1 /* Trails_iOS_SDK-Prefix.pch in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -222,6 +287,7 @@
 		E55AB80C1B2EFD2300917BB1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = TRS;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Callender Bell Development";
 				TargetAttributes = {
@@ -338,7 +404,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E539E85A1B2F0804001C5E89 /* Test.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
