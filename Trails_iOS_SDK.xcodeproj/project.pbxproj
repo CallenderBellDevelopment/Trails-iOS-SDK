@@ -22,6 +22,11 @@
 
 /* Begin PBXBuildFile section */
 		20A7668599D5AFF01D063BB2 /* Pods_Trails_iOS_SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87F9A2761337EB9BD2F0A6D3 /* Pods_Trails_iOS_SDK.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		E539E8721B302D3C001C5E89 /* TRSConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = E539E8711B302D3C001C5E89 /* TRSConstants.h */; };
+		E539E8741B302D58001C5E89 /* TRSAPIConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = E539E8731B302D58001C5E89 /* TRSAPIConstants.h */; };
+		E539E8761B302D6D001C5E89 /* TRSJSONModelConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = E539E8751B302D6D001C5E89 /* TRSJSONModelConstants.h */; };
+		E539E8781B302D80001C5E89 /* TRSJSONRequestConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = E539E8771B302D80001C5E89 /* TRSJSONRequestConstants.h */; };
+		E539E87A1B302D91001C5E89 /* TRSJSONResponseConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = E539E8791B302D91001C5E89 /* TRSJSONResponseConstants.h */; };
 		E55AB81B1B2EFD2300917BB1 /* Trails_iOS_SDK.h in Headers */ = {isa = PBXBuildFile; fileRef = E55AB81A1B2EFD2300917BB1 /* Trails_iOS_SDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E55AB8211B2EFD2300917BB1 /* Trails_iOS_SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E55AB8151B2EFD2300917BB1 /* Trails_iOS_SDK.framework */; };
 		E55AB8281B2EFD2300917BB1 /* Trails_iOS_SDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E55AB8271B2EFD2300917BB1 /* Trails_iOS_SDKTests.m */; };
@@ -45,6 +50,11 @@
 		6E133C5C60A290A6BDF724E3 /* Pods-Trails_iOS_SDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trails_iOS_SDK.release.xcconfig"; path = "Pods/Target Support Files/Pods-Trails_iOS_SDK/Pods-Trails_iOS_SDK.release.xcconfig"; sourceTree = "<group>"; };
 		78C5E43CB8E9A0F1B257A703 /* Pods-Trails_iOS_SDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trails_iOS_SDK.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Trails_iOS_SDK/Pods-Trails_iOS_SDK.debug.xcconfig"; sourceTree = "<group>"; };
 		87F9A2761337EB9BD2F0A6D3 /* Pods_Trails_iOS_SDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Trails_iOS_SDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E539E8711B302D3C001C5E89 /* TRSConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRSConstants.h; sourceTree = "<group>"; };
+		E539E8731B302D58001C5E89 /* TRSAPIConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRSAPIConstants.h; sourceTree = "<group>"; };
+		E539E8751B302D6D001C5E89 /* TRSJSONModelConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRSJSONModelConstants.h; sourceTree = "<group>"; };
+		E539E8771B302D80001C5E89 /* TRSJSONRequestConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRSJSONRequestConstants.h; sourceTree = "<group>"; };
+		E539E8791B302D91001C5E89 /* TRSJSONResponseConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRSJSONResponseConstants.h; sourceTree = "<group>"; };
 		E55AB8151B2EFD2300917BB1 /* Trails_iOS_SDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Trails_iOS_SDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E55AB8191B2EFD2300917BB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E55AB81A1B2EFD2300917BB1 /* Trails_iOS_SDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Trails_iOS_SDK.h; sourceTree = "<group>"; };
@@ -117,6 +127,11 @@
 		E539E8651B302B1C001C5E89 /* Constants */ = {
 			isa = PBXGroup;
 			children = (
+				E539E8731B302D58001C5E89 /* TRSAPIConstants.h */,
+				E539E8711B302D3C001C5E89 /* TRSConstants.h */,
+				E539E8751B302D6D001C5E89 /* TRSJSONModelConstants.h */,
+				E539E8771B302D80001C5E89 /* TRSJSONRequestConstants.h */,
+				E539E8791B302D91001C5E89 /* TRSJSONResponseConstants.h */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -235,7 +250,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				E55AB81B1B2EFD2300917BB1 /* Trails_iOS_SDK.h in Headers */,
+				E539E8721B302D3C001C5E89 /* TRSConstants.h in Headers */,
+				E539E8761B302D6D001C5E89 /* TRSJSONModelConstants.h in Headers */,
 				E55AB8321B2F024500917BB1 /* Trails_iOS_SDK-Prefix.pch in Headers */,
+				E539E8781B302D80001C5E89 /* TRSJSONRequestConstants.h in Headers */,
+				E539E8741B302D58001C5E89 /* TRSAPIConstants.h in Headers */,
+				E539E87A1B302D91001C5E89 /* TRSJSONResponseConstants.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
