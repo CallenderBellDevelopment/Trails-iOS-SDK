@@ -9,5 +9,11 @@
 #ifndef Trails_iOS_SDK_TRSJSONResponseConstants_h
 #define Trails_iOS_SDK_TRSJSONResponseConstants_h
 
+// Users.
+#define JSON_RESP_USER_USER @"user"
+
+// Generic.
+#define JSON_RESP_GENERIC_ITEMS @"items"
+#define JSON_RESP_GENERIC_COUNT @"count"
 
 #endif

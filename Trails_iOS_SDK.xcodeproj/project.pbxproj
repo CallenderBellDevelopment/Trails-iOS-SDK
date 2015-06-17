@@ -22,15 +22,15 @@
 
 /* Begin PBXBuildFile section */
 		20A7668599D5AFF01D063BB2 /* Pods_Trails_iOS_SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87F9A2761337EB9BD2F0A6D3 /* Pods_Trails_iOS_SDK.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		E539E8721B302D3C001C5E89 /* TRSConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = E539E8711B302D3C001C5E89 /* TRSConstants.h */; };
+		E539E8721B302D3C001C5E89 /* TRSConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = E539E8711B302D3C001C5E89 /* TRSConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E539E8741B302D58001C5E89 /* TRSAPIConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = E539E8731B302D58001C5E89 /* TRSAPIConstants.h */; };
 		E539E8761B302D6D001C5E89 /* TRSJSONModelConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = E539E8751B302D6D001C5E89 /* TRSJSONModelConstants.h */; };
 		E539E8781B302D80001C5E89 /* TRSJSONRequestConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = E539E8771B302D80001C5E89 /* TRSJSONRequestConstants.h */; };
 		E539E87A1B302D91001C5E89 /* TRSJSONResponseConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = E539E8791B302D91001C5E89 /* TRSJSONResponseConstants.h */; };
-		E539E87D1B303000001C5E89 /* TRSJSONSerializable.h in Headers */ = {isa = PBXBuildFile; fileRef = E539E87B1B303000001C5E89 /* TRSJSONSerializable.h */; };
-		E539E8811B30306C001C5E89 /* TRSUser.h in Headers */ = {isa = PBXBuildFile; fileRef = E539E87F1B30306C001C5E89 /* TRSUser.h */; };
+		E539E87D1B303000001C5E89 /* TRSJSONSerializable.h in Headers */ = {isa = PBXBuildFile; fileRef = E539E87B1B303000001C5E89 /* TRSJSONSerializable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E539E8811B30306C001C5E89 /* TRSUser.h in Headers */ = {isa = PBXBuildFile; fileRef = E539E87F1B30306C001C5E89 /* TRSUser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E539E8821B30306C001C5E89 /* TRSUser.m in Sources */ = {isa = PBXBuildFile; fileRef = E539E8801B30306C001C5E89 /* TRSUser.m */; };
-		E539E8851B303080001C5E89 /* TRSTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = E539E8831B303080001C5E89 /* TRSTrack.h */; };
+		E539E8851B303080001C5E89 /* TRSTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = E539E8831B303080001C5E89 /* TRSTrack.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E539E8861B303080001C5E89 /* TRSTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = E539E8841B303080001C5E89 /* TRSTrack.m */; };
 		E539E8891B30355C001C5E89 /* TRSCookieManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E539E8871B30355C001C5E89 /* TRSCookieManager.h */; };
 		E539E88A1B30355C001C5E89 /* TRSCookieManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E539E8881B30355C001C5E89 /* TRSCookieManager.m */; };
@@ -38,16 +38,20 @@
 		E539E88E1B30356E001C5E89 /* TRSSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E539E88C1B30356E001C5E89 /* TRSSessionManager.m */; };
 		E539E8911B3035E0001C5E89 /* TRSRequestBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = E539E88F1B3035E0001C5E89 /* TRSRequestBuilder.h */; };
 		E539E8921B3035E0001C5E89 /* TRSRequestBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E539E8901B3035E0001C5E89 /* TRSRequestBuilder.m */; };
-		E539E8951B3035F8001C5E89 /* TRSResponseObject.h in Headers */ = {isa = PBXBuildFile; fileRef = E539E8931B3035F8001C5E89 /* TRSResponseObject.h */; };
+		E539E8951B3035F8001C5E89 /* TRSResponseObject.h in Headers */ = {isa = PBXBuildFile; fileRef = E539E8931B3035F8001C5E89 /* TRSResponseObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E539E8961B3035F8001C5E89 /* TRSResponseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E539E8941B3035F8001C5E89 /* TRSResponseObject.m */; };
-		E539E8991B303625001C5E89 /* TRSImageRequestBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = E539E8971B303625001C5E89 /* TRSImageRequestBuilder.h */; };
+		E539E8991B303625001C5E89 /* TRSImageRequestBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = E539E8971B303625001C5E89 /* TRSImageRequestBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E539E89A1B303625001C5E89 /* TRSImageRequestBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E539E8981B303625001C5E89 /* TRSImageRequestBuilder.m */; };
 		E539E89D1B303640001C5E89 /* TRSSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = E539E89B1B303640001C5E89 /* TRSSettings.h */; };
 		E539E89E1B303640001C5E89 /* TRSSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = E539E89C1B303640001C5E89 /* TRSSettings.m */; };
 		E539E8A11B3036C2001C5E89 /* TRSNetworkTask.h in Headers */ = {isa = PBXBuildFile; fileRef = E539E89F1B3036C2001C5E89 /* TRSNetworkTask.h */; };
 		E539E8A21B3036C2001C5E89 /* TRSNetworkTask.m in Sources */ = {isa = PBXBuildFile; fileRef = E539E8A01B3036C2001C5E89 /* TRSNetworkTask.m */; };
-		E539E8A61B30377B001C5E89 /* TRSLifecycleManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E539E8A41B30377B001C5E89 /* TRSLifecycleManager.h */; };
+		E539E8A61B30377B001C5E89 /* TRSLifecycleManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E539E8A41B30377B001C5E89 /* TRSLifecycleManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E539E8A71B30377B001C5E89 /* TRSLifecycleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E539E8A51B30377B001C5E89 /* TRSLifecycleManager.m */; };
+		E539E8B31B31A214001C5E89 /* TRSLoginTask.h in Headers */ = {isa = PBXBuildFile; fileRef = E539E8B11B31A214001C5E89 /* TRSLoginTask.h */; };
+		E539E8B41B31A214001C5E89 /* TRSLoginTask.m in Sources */ = {isa = PBXBuildFile; fileRef = E539E8B21B31A214001C5E89 /* TRSLoginTask.m */; };
+		E539E8B81B31A32F001C5E89 /* TRSUserManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E539E8B61B31A32F001C5E89 /* TRSUserManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E539E8B91B31A32F001C5E89 /* TRSUserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E539E8B71B31A32F001C5E89 /* TRSUserManager.m */; };
 		E55AB81B1B2EFD2300917BB1 /* Trails_iOS_SDK.h in Headers */ = {isa = PBXBuildFile; fileRef = E55AB81A1B2EFD2300917BB1 /* Trails_iOS_SDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E55AB8211B2EFD2300917BB1 /* Trails_iOS_SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E55AB8151B2EFD2300917BB1 /* Trails_iOS_SDK.framework */; };
 		E55AB8281B2EFD2300917BB1 /* Trails_iOS_SDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E55AB8271B2EFD2300917BB1 /* Trails_iOS_SDKTests.m */; };
@@ -97,6 +101,10 @@
 		E539E8A01B3036C2001C5E89 /* TRSNetworkTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRSNetworkTask.m; sourceTree = "<group>"; };
 		E539E8A41B30377B001C5E89 /* TRSLifecycleManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRSLifecycleManager.h; sourceTree = "<group>"; };
 		E539E8A51B30377B001C5E89 /* TRSLifecycleManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRSLifecycleManager.m; sourceTree = "<group>"; };
+		E539E8B11B31A214001C5E89 /* TRSLoginTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRSLoginTask.h; sourceTree = "<group>"; };
+		E539E8B21B31A214001C5E89 /* TRSLoginTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRSLoginTask.m; sourceTree = "<group>"; };
+		E539E8B61B31A32F001C5E89 /* TRSUserManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRSUserManager.h; sourceTree = "<group>"; };
+		E539E8B71B31A32F001C5E89 /* TRSUserManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRSUserManager.m; sourceTree = "<group>"; };
 		E55AB8151B2EFD2300917BB1 /* Trails_iOS_SDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Trails_iOS_SDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E55AB8191B2EFD2300917BB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E55AB81A1B2EFD2300917BB1 /* Trails_iOS_SDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Trails_iOS_SDK.h; sourceTree = "<group>"; };
@@ -189,6 +197,7 @@
 		E539E8671B302B1C001C5E89 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				E539E8B51B31A31F001C5E89 /* User */,
 				E539E8A31B30376A001C5E89 /* Lifecycle */,
 			);
 			path = Managers;
@@ -242,6 +251,7 @@
 		E539E86C1B302B1C001C5E89 /* Tasks */ = {
 			isa = PBXGroup;
 			children = (
+				E539E8AB1B31A1D7001C5E89 /* User */,
 				E539E89F1B3036C2001C5E89 /* TRSNetworkTask.h */,
 				E539E8A01B3036C2001C5E89 /* TRSNetworkTask.m */,
 			);
@@ -255,6 +265,32 @@
 				E539E8A51B30377B001C5E89 /* TRSLifecycleManager.m */,
 			);
 			path = Lifecycle;
+			sourceTree = "<group>";
+		};
+		E539E8AB1B31A1D7001C5E89 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				E539E8B01B31A214001C5E89 /* Login */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		E539E8B01B31A214001C5E89 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				E539E8B11B31A214001C5E89 /* TRSLoginTask.h */,
+				E539E8B21B31A214001C5E89 /* TRSLoginTask.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		E539E8B51B31A31F001C5E89 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				E539E8B61B31A32F001C5E89 /* TRSUserManager.h */,
+				E539E8B71B31A32F001C5E89 /* TRSUserManager.m */,
+			);
+			path = User;
 			sourceTree = "<group>";
 		};
 		E55AB80B1B2EFD2300917BB1 = {
@@ -320,21 +356,23 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E539E8951B3035F8001C5E89 /* TRSResponseObject.h in Headers */,
+				E539E8B81B31A32F001C5E89 /* TRSUserManager.h in Headers */,
+				E539E8811B30306C001C5E89 /* TRSUser.h in Headers */,
 				E539E8851B303080001C5E89 /* TRSTrack.h in Headers */,
+				E539E8721B302D3C001C5E89 /* TRSConstants.h in Headers */,
+				E539E8951B3035F8001C5E89 /* TRSResponseObject.h in Headers */,
+				E539E8A61B30377B001C5E89 /* TRSLifecycleManager.h in Headers */,
+				E539E8991B303625001C5E89 /* TRSImageRequestBuilder.h in Headers */,
+				E539E87D1B303000001C5E89 /* TRSJSONSerializable.h in Headers */,
 				E55AB81B1B2EFD2300917BB1 /* Trails_iOS_SDK.h in Headers */,
 				E539E8911B3035E0001C5E89 /* TRSRequestBuilder.h in Headers */,
-				E539E8721B302D3C001C5E89 /* TRSConstants.h in Headers */,
+				E539E8B31B31A214001C5E89 /* TRSLoginTask.h in Headers */,
 				E539E8761B302D6D001C5E89 /* TRSJSONModelConstants.h in Headers */,
 				E55AB8321B2F024500917BB1 /* Trails_iOS_SDK-Prefix.pch in Headers */,
 				E539E88D1B30356E001C5E89 /* TRSSessionManager.h in Headers */,
 				E539E8A11B3036C2001C5E89 /* TRSNetworkTask.h in Headers */,
-				E539E8A61B30377B001C5E89 /* TRSLifecycleManager.h in Headers */,
 				E539E8891B30355C001C5E89 /* TRSCookieManager.h in Headers */,
-				E539E8991B303625001C5E89 /* TRSImageRequestBuilder.h in Headers */,
-				E539E8811B30306C001C5E89 /* TRSUser.h in Headers */,
 				E539E8781B302D80001C5E89 /* TRSJSONRequestConstants.h in Headers */,
-				E539E87D1B303000001C5E89 /* TRSJSONSerializable.h in Headers */,
 				E539E89D1B303640001C5E89 /* TRSSettings.h in Headers */,
 				E539E8741B302D58001C5E89 /* TRSAPIConstants.h in Headers */,
 				E539E87A1B302D91001C5E89 /* TRSJSONResponseConstants.h in Headers */,
@@ -516,6 +554,8 @@
 				E539E8A21B3036C2001C5E89 /* TRSNetworkTask.m in Sources */,
 				E539E8A71B30377B001C5E89 /* TRSLifecycleManager.m in Sources */,
 				E539E8921B3035E0001C5E89 /* TRSRequestBuilder.m in Sources */,
+				E539E8B91B31A32F001C5E89 /* TRSUserManager.m in Sources */,
+				E539E8B41B31A214001C5E89 /* TRSLoginTask.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

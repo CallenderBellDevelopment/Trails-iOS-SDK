@@ -9,5 +9,8 @@
 #ifndef Trails_iOS_SDK_TRSJSONRequestConstants_h
 #define Trails_iOS_SDK_TRSJSONRequestConstants_h
 
+// Users.
+#define JSON_REQ_USER_USERNAME @"username"
+#define JSON_REQ_USER_PASSWORD @"password"
 
 #endif

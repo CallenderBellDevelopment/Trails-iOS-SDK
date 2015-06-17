@@ -10,4 +10,16 @@
 
 @implementation TRSRequestBuilder
 
+#pragma mark - User
+
++ (NSString *)buildLogin {
+    return [NSString stringWithFormat:@"%@%@", [self buildAPIUrl], API_USER_LOGIN];
+}
+
+#pragma mark - API url
+
++ (NSString *)buildAPIUrl {
+    return [NSString stringWithFormat:@"%@/%@", API_APP_URL, API_APP_API_URL];
+}
+
 @end

@@ -10,4 +10,6 @@
 
 @interface TRSRequestBuilder : NSObject
 
++ (NSString *)buildLogin;
+
 @end
