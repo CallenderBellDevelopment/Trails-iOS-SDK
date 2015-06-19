@@ -21,5 +21,7 @@
 #define JSON_TRACK_GENRE @"genre"
 #define JSON_TRACK_TITLE @"title"
 #define JSON_TRACK_ARTIST @"artist"
+#define JSON_TRACK_BPM @"bpm"
+#define JSON_TRACK_MOOD @"mood"
 
 #endif

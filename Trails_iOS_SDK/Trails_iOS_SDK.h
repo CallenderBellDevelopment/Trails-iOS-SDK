@@ -23,5 +23,8 @@ FOUNDATION_EXPORT const unsigned char Trails_iOS_SDKVersionString[];
 #import <Trails_iOS_SDK/TRSUser.h>
 #import <Trails_iOS_SDK/TRSTrack.h>
 
+#import <Trails_iOS_SDK/TRSImageRequestBuilder.h>
+#import <Trails_iOS_SDK/TRSPlaybackRequestBuilder.h>
 #import <Trails_iOS_SDK/TRSLifecycleManager.h>
 #import <Trails_iOS_SDK/TRSUserManager.h>
+#import <Trails_iOS_SDK/TRSTrackManager.h>

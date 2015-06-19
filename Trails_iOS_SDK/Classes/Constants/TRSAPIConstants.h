@@ -14,8 +14,10 @@
 //#define API_APP_URL @"http://graffitab.com"
 #define API_APP_API_URL @"api/rest"
 
-#define API_USER_REGISTER                         @"/user/register"
 #define API_USER_LOGIN                            @"/user/login"
-#define API_USER_LOGOUT                           @"/user/logout"
+#define API_USER_GET_ALL                          @"/user/getAll"
+
+#define API_TRACK_GET_ALL                         @"/track/getTracks"
+#define API_TRACK_PLAY                            @"/track/play"
 
 #endif

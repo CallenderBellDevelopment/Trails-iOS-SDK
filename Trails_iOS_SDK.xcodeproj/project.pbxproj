@@ -52,6 +52,14 @@
 		E539E8B41B31A214001C5E89 /* TRSLoginTask.m in Sources */ = {isa = PBXBuildFile; fileRef = E539E8B21B31A214001C5E89 /* TRSLoginTask.m */; };
 		E539E8B81B31A32F001C5E89 /* TRSUserManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E539E8B61B31A32F001C5E89 /* TRSUserManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E539E8B91B31A32F001C5E89 /* TRSUserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E539E8B71B31A32F001C5E89 /* TRSUserManager.m */; };
+		E539E8BD1B34194E001C5E89 /* TRSGetAllTracksTask.h in Headers */ = {isa = PBXBuildFile; fileRef = E539E8BB1B34194E001C5E89 /* TRSGetAllTracksTask.h */; };
+		E539E8BE1B34194E001C5E89 /* TRSGetAllTracksTask.m in Sources */ = {isa = PBXBuildFile; fileRef = E539E8BC1B34194E001C5E89 /* TRSGetAllTracksTask.m */; };
+		E539E8C21B341B91001C5E89 /* TRSTrackManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E539E8C01B341B91001C5E89 /* TRSTrackManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E539E8C31B341B91001C5E89 /* TRSTrackManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E539E8C11B341B91001C5E89 /* TRSTrackManager.m */; };
+		E539E8C61B342587001C5E89 /* TRSGetAllUsersTask.h in Headers */ = {isa = PBXBuildFile; fileRef = E539E8C41B342587001C5E89 /* TRSGetAllUsersTask.h */; };
+		E539E8C71B342587001C5E89 /* TRSGetAllUsersTask.m in Sources */ = {isa = PBXBuildFile; fileRef = E539E8C51B342587001C5E89 /* TRSGetAllUsersTask.m */; };
+		E539E8CA1B342691001C5E89 /* TRSPlaybackRequestBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = E539E8C81B342691001C5E89 /* TRSPlaybackRequestBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E539E8CB1B342691001C5E89 /* TRSPlaybackRequestBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E539E8C91B342691001C5E89 /* TRSPlaybackRequestBuilder.m */; };
 		E55AB81B1B2EFD2300917BB1 /* Trails_iOS_SDK.h in Headers */ = {isa = PBXBuildFile; fileRef = E55AB81A1B2EFD2300917BB1 /* Trails_iOS_SDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E55AB8211B2EFD2300917BB1 /* Trails_iOS_SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E55AB8151B2EFD2300917BB1 /* Trails_iOS_SDK.framework */; };
 		E55AB8281B2EFD2300917BB1 /* Trails_iOS_SDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E55AB8271B2EFD2300917BB1 /* Trails_iOS_SDKTests.m */; };
@@ -105,6 +113,14 @@
 		E539E8B21B31A214001C5E89 /* TRSLoginTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRSLoginTask.m; sourceTree = "<group>"; };
 		E539E8B61B31A32F001C5E89 /* TRSUserManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRSUserManager.h; sourceTree = "<group>"; };
 		E539E8B71B31A32F001C5E89 /* TRSUserManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRSUserManager.m; sourceTree = "<group>"; };
+		E539E8BB1B34194E001C5E89 /* TRSGetAllTracksTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRSGetAllTracksTask.h; sourceTree = "<group>"; };
+		E539E8BC1B34194E001C5E89 /* TRSGetAllTracksTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRSGetAllTracksTask.m; sourceTree = "<group>"; };
+		E539E8C01B341B91001C5E89 /* TRSTrackManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRSTrackManager.h; sourceTree = "<group>"; };
+		E539E8C11B341B91001C5E89 /* TRSTrackManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRSTrackManager.m; sourceTree = "<group>"; };
+		E539E8C41B342587001C5E89 /* TRSGetAllUsersTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRSGetAllUsersTask.h; sourceTree = "<group>"; };
+		E539E8C51B342587001C5E89 /* TRSGetAllUsersTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRSGetAllUsersTask.m; sourceTree = "<group>"; };
+		E539E8C81B342691001C5E89 /* TRSPlaybackRequestBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRSPlaybackRequestBuilder.h; sourceTree = "<group>"; };
+		E539E8C91B342691001C5E89 /* TRSPlaybackRequestBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRSPlaybackRequestBuilder.m; sourceTree = "<group>"; };
 		E55AB8151B2EFD2300917BB1 /* Trails_iOS_SDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Trails_iOS_SDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E55AB8191B2EFD2300917BB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E55AB81A1B2EFD2300917BB1 /* Trails_iOS_SDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Trails_iOS_SDK.h; sourceTree = "<group>"; };
@@ -197,6 +213,7 @@
 		E539E8671B302B1C001C5E89 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				E539E8BF1B341B81001C5E89 /* Track */,
 				E539E8B51B31A31F001C5E89 /* User */,
 				E539E8A31B30376A001C5E89 /* Lifecycle */,
 			);
@@ -220,6 +237,8 @@
 				E539E86A1B302B1C001C5E89 /* Session */,
 				E539E8971B303625001C5E89 /* TRSImageRequestBuilder.h */,
 				E539E8981B303625001C5E89 /* TRSImageRequestBuilder.m */,
+				E539E8C81B342691001C5E89 /* TRSPlaybackRequestBuilder.h */,
+				E539E8C91B342691001C5E89 /* TRSPlaybackRequestBuilder.m */,
 				E539E88F1B3035E0001C5E89 /* TRSRequestBuilder.h */,
 				E539E8901B3035E0001C5E89 /* TRSRequestBuilder.m */,
 				E539E8931B3035F8001C5E89 /* TRSResponseObject.h */,
@@ -251,6 +270,7 @@
 		E539E86C1B302B1C001C5E89 /* Tasks */ = {
 			isa = PBXGroup;
 			children = (
+				E539E8BA1B341930001C5E89 /* Track */,
 				E539E8AB1B31A1D7001C5E89 /* User */,
 				E539E89F1B3036C2001C5E89 /* TRSNetworkTask.h */,
 				E539E8A01B3036C2001C5E89 /* TRSNetworkTask.m */,
@@ -271,6 +291,8 @@
 			isa = PBXGroup;
 			children = (
 				E539E8B01B31A214001C5E89 /* Login */,
+				E539E8C41B342587001C5E89 /* TRSGetAllUsersTask.h */,
+				E539E8C51B342587001C5E89 /* TRSGetAllUsersTask.m */,
 			);
 			path = User;
 			sourceTree = "<group>";
@@ -291,6 +313,24 @@
 				E539E8B71B31A32F001C5E89 /* TRSUserManager.m */,
 			);
 			path = User;
+			sourceTree = "<group>";
+		};
+		E539E8BA1B341930001C5E89 /* Track */ = {
+			isa = PBXGroup;
+			children = (
+				E539E8BB1B34194E001C5E89 /* TRSGetAllTracksTask.h */,
+				E539E8BC1B34194E001C5E89 /* TRSGetAllTracksTask.m */,
+			);
+			path = Track;
+			sourceTree = "<group>";
+		};
+		E539E8BF1B341B81001C5E89 /* Track */ = {
+			isa = PBXGroup;
+			children = (
+				E539E8C01B341B91001C5E89 /* TRSTrackManager.h */,
+				E539E8C11B341B91001C5E89 /* TRSTrackManager.m */,
+			);
+			path = Track;
 			sourceTree = "<group>";
 		};
 		E55AB80B1B2EFD2300917BB1 = {
@@ -363,8 +403,12 @@
 				E539E8951B3035F8001C5E89 /* TRSResponseObject.h in Headers */,
 				E539E8A61B30377B001C5E89 /* TRSLifecycleManager.h in Headers */,
 				E539E8991B303625001C5E89 /* TRSImageRequestBuilder.h in Headers */,
+				E539E8CA1B342691001C5E89 /* TRSPlaybackRequestBuilder.h in Headers */,
+				E539E8C61B342587001C5E89 /* TRSGetAllUsersTask.h in Headers */,
 				E539E87D1B303000001C5E89 /* TRSJSONSerializable.h in Headers */,
+				E539E8C21B341B91001C5E89 /* TRSTrackManager.h in Headers */,
 				E55AB81B1B2EFD2300917BB1 /* Trails_iOS_SDK.h in Headers */,
+				E539E8BD1B34194E001C5E89 /* TRSGetAllTracksTask.h in Headers */,
 				E539E8911B3035E0001C5E89 /* TRSRequestBuilder.h in Headers */,
 				E539E8B31B31A214001C5E89 /* TRSLoginTask.h in Headers */,
 				E539E8761B302D6D001C5E89 /* TRSJSONModelConstants.h in Headers */,
@@ -550,10 +594,14 @@
 				E539E8961B3035F8001C5E89 /* TRSResponseObject.m in Sources */,
 				E539E8821B30306C001C5E89 /* TRSUser.m in Sources */,
 				E539E88E1B30356E001C5E89 /* TRSSessionManager.m in Sources */,
+				E539E8CB1B342691001C5E89 /* TRSPlaybackRequestBuilder.m in Sources */,
 				E539E8861B303080001C5E89 /* TRSTrack.m in Sources */,
+				E539E8C31B341B91001C5E89 /* TRSTrackManager.m in Sources */,
 				E539E8A21B3036C2001C5E89 /* TRSNetworkTask.m in Sources */,
 				E539E8A71B30377B001C5E89 /* TRSLifecycleManager.m in Sources */,
+				E539E8BE1B34194E001C5E89 /* TRSGetAllTracksTask.m in Sources */,
 				E539E8921B3035E0001C5E89 /* TRSRequestBuilder.m in Sources */,
+				E539E8C71B342587001C5E89 /* TRSGetAllUsersTask.m in Sources */,
 				E539E8B91B31A32F001C5E89 /* TRSUserManager.m in Sources */,
 				E539E8B41B31A214001C5E89 /* TRSLoginTask.m in Sources */,
 			);

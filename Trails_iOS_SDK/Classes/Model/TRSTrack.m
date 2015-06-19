@@ -18,6 +18,8 @@
         self.genre = json[JSON_TRACK_GENRE];
         self.title = json[JSON_TRACK_TITLE];
         self.artist = json[JSON_TRACK_ARTIST];
+        self.bpm = [json[JSON_TRACK_BPM] intValue];
+        self.mood = MoodType(json[JSON_TRACK_MOOD]);
     }
     
     return self;
@@ -34,6 +36,9 @@
         json[JSON_TRACK_TITLE] = self.title;
     if (self.artist)
         json[JSON_TRACK_ARTIST] = self.artist;
+    
+    json[JSON_TRACK_BPM] = @(self.bpm);
+    json[JSON_TRACK_MOOD] = MOOD_TYPE_LIST[self.mood];
     
     return json;
 }

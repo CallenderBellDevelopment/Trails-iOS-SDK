@@ -16,6 +16,20 @@
     return [NSString stringWithFormat:@"%@%@", [self buildAPIUrl], API_USER_LOGIN];
 }
 
++ (NSString *)buildGetAllUsers {
+    return [NSString stringWithFormat:@"%@%@", [self buildAPIUrl], API_USER_GET_ALL];
+}
+
+#pragma mark - Track
+
++ (NSString *)buildGetAllTracks {
+    return [NSString stringWithFormat:@"%@%@", [self buildAPIUrl], API_TRACK_GET_ALL];
+}
+
++ (NSString *)buildPlayback:(long)trackId {
+    return [NSString stringWithFormat:@"%@%@?trackId=%li", [self buildAPIUrl], API_TRACK_PLAY, trackId];
+}
+
 #pragma mark - API url
 
 + (NSString *)buildAPIUrl {

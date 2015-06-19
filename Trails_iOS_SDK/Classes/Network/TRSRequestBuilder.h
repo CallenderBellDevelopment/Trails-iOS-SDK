@@ -11,5 +11,9 @@
 @interface TRSRequestBuilder : NSObject
 
 + (NSString *)buildLogin;
++ (NSString *)buildGetAllUsers;
+
++ (NSString *)buildGetAllTracks;
++ (NSString *)buildPlayback:(long)trackId;
 
 @end

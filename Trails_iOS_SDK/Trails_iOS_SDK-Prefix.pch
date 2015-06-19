@@ -39,6 +39,10 @@
     #import "TRSResponseObject.h"
     #import "TRSCookieManager.h"
     #import "TRSLifecycleManager.h"
+
+    // Import model classes.
+    #import "TRSUser.h"
+    #import "TRSTrack.h"
 #endif
 
 #endif
