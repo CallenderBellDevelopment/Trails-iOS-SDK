@@ -60,6 +60,8 @@
 		E539E8C71B342587001C5E89 /* TRSGetAllUsersTask.m in Sources */ = {isa = PBXBuildFile; fileRef = E539E8C51B342587001C5E89 /* TRSGetAllUsersTask.m */; };
 		E539E8CA1B342691001C5E89 /* TRSPlaybackRequestBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = E539E8C81B342691001C5E89 /* TRSPlaybackRequestBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E539E8CB1B342691001C5E89 /* TRSPlaybackRequestBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E539E8C91B342691001C5E89 /* TRSPlaybackRequestBuilder.m */; };
+		E539E8DF1B34487C001C5E89 /* TRSCheckLoginTask.h in Headers */ = {isa = PBXBuildFile; fileRef = E539E8DD1B34487C001C5E89 /* TRSCheckLoginTask.h */; };
+		E539E8E01B34487C001C5E89 /* TRSCheckLoginTask.m in Sources */ = {isa = PBXBuildFile; fileRef = E539E8DE1B34487C001C5E89 /* TRSCheckLoginTask.m */; };
 		E55AB81B1B2EFD2300917BB1 /* Trails_iOS_SDK.h in Headers */ = {isa = PBXBuildFile; fileRef = E55AB81A1B2EFD2300917BB1 /* Trails_iOS_SDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E55AB8211B2EFD2300917BB1 /* Trails_iOS_SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E55AB8151B2EFD2300917BB1 /* Trails_iOS_SDK.framework */; };
 		E55AB8281B2EFD2300917BB1 /* Trails_iOS_SDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E55AB8271B2EFD2300917BB1 /* Trails_iOS_SDKTests.m */; };
@@ -121,6 +123,8 @@
 		E539E8C51B342587001C5E89 /* TRSGetAllUsersTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRSGetAllUsersTask.m; sourceTree = "<group>"; };
 		E539E8C81B342691001C5E89 /* TRSPlaybackRequestBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRSPlaybackRequestBuilder.h; sourceTree = "<group>"; };
 		E539E8C91B342691001C5E89 /* TRSPlaybackRequestBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRSPlaybackRequestBuilder.m; sourceTree = "<group>"; };
+		E539E8DD1B34487C001C5E89 /* TRSCheckLoginTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRSCheckLoginTask.h; sourceTree = "<group>"; };
+		E539E8DE1B34487C001C5E89 /* TRSCheckLoginTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRSCheckLoginTask.m; sourceTree = "<group>"; };
 		E55AB8151B2EFD2300917BB1 /* Trails_iOS_SDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Trails_iOS_SDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E55AB8191B2EFD2300917BB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E55AB81A1B2EFD2300917BB1 /* Trails_iOS_SDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Trails_iOS_SDK.h; sourceTree = "<group>"; };
@@ -302,6 +306,8 @@
 			children = (
 				E539E8B11B31A214001C5E89 /* TRSLoginTask.h */,
 				E539E8B21B31A214001C5E89 /* TRSLoginTask.m */,
+				E539E8DD1B34487C001C5E89 /* TRSCheckLoginTask.h */,
+				E539E8DE1B34487C001C5E89 /* TRSCheckLoginTask.m */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -415,6 +421,7 @@
 				E55AB8321B2F024500917BB1 /* Trails_iOS_SDK-Prefix.pch in Headers */,
 				E539E88D1B30356E001C5E89 /* TRSSessionManager.h in Headers */,
 				E539E8A11B3036C2001C5E89 /* TRSNetworkTask.h in Headers */,
+				E539E8DF1B34487C001C5E89 /* TRSCheckLoginTask.h in Headers */,
 				E539E8891B30355C001C5E89 /* TRSCookieManager.h in Headers */,
 				E539E8781B302D80001C5E89 /* TRSJSONRequestConstants.h in Headers */,
 				E539E89D1B303640001C5E89 /* TRSSettings.h in Headers */,
@@ -592,6 +599,7 @@
 				E539E88A1B30355C001C5E89 /* TRSCookieManager.m in Sources */,
 				E539E89E1B303640001C5E89 /* TRSSettings.m in Sources */,
 				E539E8961B3035F8001C5E89 /* TRSResponseObject.m in Sources */,
+				E539E8E01B34487C001C5E89 /* TRSCheckLoginTask.m in Sources */,
 				E539E8821B30306C001C5E89 /* TRSUser.m in Sources */,
 				E539E88E1B30356E001C5E89 /* TRSSessionManager.m in Sources */,
 				E539E8CB1B342691001C5E89 /* TRSPlaybackRequestBuilder.m in Sources */,

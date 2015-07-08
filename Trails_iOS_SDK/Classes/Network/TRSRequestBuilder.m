@@ -20,6 +20,10 @@
     return [NSString stringWithFormat:@"%@%@", [self buildAPIUrl], API_USER_GET_ALL];
 }
 
++ (NSString *)buildCheckLoginStatus {
+    return [NSString stringWithFormat:@"%@%@", [self buildAPIUrl], API_USER_CHECK_LOGIN];
+}
+
 #pragma mark - Track
 
 + (NSString *)buildGetAllTracks {

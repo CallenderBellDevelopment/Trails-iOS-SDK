@@ -12,6 +12,7 @@
 
 + (NSString *)buildLogin;
 + (NSString *)buildGetAllUsers;
++ (NSString *)buildCheckLoginStatus;
 
 + (NSString *)buildGetAllTracks;
 + (NSString *)buildPlayback:(long)trackId;
